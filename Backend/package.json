@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "reating for the chat bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "google-auth-library": "^9.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailgun-js": "^0.22.0",
+    "mailgun.js": "^10.2.1",
+    "mongoose": "^8.3.2",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
